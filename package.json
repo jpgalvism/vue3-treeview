@@ -1,8 +1,8 @@
 {
-  "name": "vue3-treeview",
-  "version": "0.4.2",
+  "name": "@jpfdev/vue3-treeview",
+  "version": "0.4.22",
   "private": false,
-  "library": "vue3-treeview",
+  "library": "@jpfdev/vue3-treeview",
   "license": "MIT",
   "description": "A simple vue js 3 treeview component",
   "author": "Tristan Fontaine <tristanfontaine3000@gmail.com>",
@@ -94,5 +94,6 @@
   "directories": {
     "doc": "docs",
     "test": "tests"
-  }
+  },
+  "packageManager": "pnpm@8.7.5+sha512.588f1665bf3d522ab9c768ddcf83dc40c1bda2f4e75dc0c2129a047243d8213db30fcffe744855a333e54fb6eedd6901804d2e4c046d83220a005b7e2295b671"
 }

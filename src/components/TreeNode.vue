@@ -53,6 +53,7 @@
           :disabled="disabled"
           :indeterminate.prop="indeterminate"
         >
+        <span></span>
       </div>  
 
       <slot
@@ -76,6 +77,7 @@
           v-else
           class="node-text"
           @dblclick="focusInput"
+          @click.stop="toggle"
         >
           {{ text }}
         </span>
